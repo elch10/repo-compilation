@@ -6,6 +6,7 @@ LF AI & Data Foundation Interactive Landscape: https://landscape.lfai.foundation
 Table of Contents
 =================
 
+* [CMD line interface](#cmd-line-interface)
 * [Visualization](#visualization)
 * [AutoML](#automl)
 * [Model debugging](#model-debugging)
@@ -22,6 +23,15 @@ Table of Contents
 * [Python app creator helpers:](#python-app-creator-helpers)
 * [Automate](#automate)
 
+### CMD line interface
+
+- https://github.com/tiangolo/fastapi
+
+    FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+- https://github.com/pallets/click - almost one liner
+
+    Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 
 ### Visualization
 
@@ -33,13 +43,7 @@ Table of Contents
     Code-free visualization builder to extract and present datasets
     - A world-class SQL IDE for preparing data for visualization, including a rich metadata browser
     - A lightweight semantic layer which empowers data analysts to quickly define custom dimensions and metrics
-    - Out-of-the-box support for most SQL-speaking databases
-    - Seamless, in-memory asynchronous caching and queries
-    - An extensible security model that allows configuration of very intricate rules on on who can access which product features and datasets.
-    - Integration with major authentication backends (database, OpenID, LDAP, OAuth, REMOTE_USER, etc)
-    - The ability to add custom visualization plugins
-    - An API for programmatic customization
-    - A cloud-native archiecture designed from the ground up for scale
+    - etc.
 
 - https://github.com/lmcinnes/umap
 
@@ -49,15 +53,31 @@ Table of Contents
 
     A GUI for analyzing Pandas DataFrames.
 
+- https://github.com/pandas-profiling/pandas-profiling
+
+    Generates profile reports from a pandas DataFrame.
+
 - https://github.com/facebookresearch/hiplot
 
     HiPlot is a lightweight interactive visualization tool to help AI researchers discover correlations and patterns in high-dimensional data using parallel plots and other graphical ways to represent information.
+
+- https://github.com/DistrictDataLabs/yellowbrick
+
+    Yellowbrick is a suite of visual diagnostic tools called "Visualizers" that extend the scikit-learn API to allow human steering of the model selection process. In a nutshell, Yellowbrick combines scikit-learn with matplotlib in the best tradition of the scikit-learn documentation, but to produce visualizations for your machine learning workflow!
+
+- https://github.com/lutzroeder/netron
+
+     Visualizer for neural network, deep learning, and machine learning models.
 
 ### AutoML
 
 - https://github.com/shankarpandala/lazypredict
 
     Lazy Predict helps build a lot of basic models without much code and helps understand which models works better without any parameter tuning.
+
+- https://github.com/automl/auto-sklearn
+
+    auto-sklearn is an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator.
 
 - https://github.com/keras-team/autokeras
 
@@ -86,6 +106,9 @@ Table of Contents
     - save configurations for individual runs in a database
     - reproduce your results
 
+- https://github.com/TeamHG-Memex/eli5
+
+    ELI5 is a Python package which helps to debug machine learning models and explain their predictions.
 
 - https://github.com/slundberg/shap
 
@@ -169,6 +192,18 @@ Table of Contents
 
 ### Time Series
 
+- https://github.com/RJT1990/pyflux
+
+    PyFlux is an open source time series library for Python. The library has a good array of modern time series models, as well as a flexible array of inference options (frequentist and Bayesian) that can be applied to these models. By combining breadth of models with breadth of inference, PyFlux allows for a probabilistic approach to time series modelling.
+
+- https://github.com/tslearn-team/tslearn
+
+     The machine learning toolkit for time series analysis in Python.
+
+- https://github.com/blue-yonder/tsfresh
+
+     Automatic extraction of relevant features from time series.
+
 - https://github.com/microsoft/qlib
 
     Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment.
@@ -182,6 +217,10 @@ Table of Contents
     Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
 ### Recommendations
+
+- https://github.com/NicolasHug/Surprise
+
+    Surprise is a Python scikit for building and analyzing recommender systems that deal with explicit rating data.
 
 - https://github.com/tensorflow/recommenders
 
@@ -203,6 +242,10 @@ Table of Contents
     - RLlib: Scalable Reinforcement Learning
     - RaySGD: Distributed Training Wrappers
     - Ray Serve: Scalable and Programmable Serving
+
+- https://github.com/jmcarpenter2/swifter
+
+    A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner.
 
 ### Data mining and data processing
 
@@ -270,6 +313,14 @@ Table of Contents
 - https://github.com/plotly/dash - web app
 
     Built on top of Plotly.js, React and Flask, Dash ties modern UI elements like dropdowns, sliders, and graphs directly to your analytical Python code. Read our tutorial proudly crafted ❤️ by Dash itself
+
+- https://github.com/streamlit/streamlit
+
+    Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world.
+
+- https://github.com/chriskiehl/Gooey
+
+    Turn (almost) any Python 2 or 3 Console Program into a GUI application with one line
 
 ### Automate
 
