@@ -65,6 +65,10 @@ Table of Contents
 
     Yellowbrick is a suite of visual diagnostic tools called "Visualizers" that extend the scikit-learn API to allow human steering of the model selection process. In a nutshell, Yellowbrick combines scikit-learn with matplotlib in the best tradition of the scikit-learn documentation, but to produce visualizations for your machine learning workflow!
 
+- https://github.com/martinfleis/clustergram
+
+    Clustergram - Visualization and diagnostics for cluster analysis in Python 
+
 - https://github.com/lutzroeder/netron
 
      Visualizer for neural network, deep learning, and machine learning models.
@@ -160,6 +164,11 @@ Table of Contents
 
     Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.
 
+- https://github.com/natasha/natasha
+
+    Natasha solves basic NLP tasks for Russian language: tokenization, sentence segmentation, word embedding, morphology tagging, lemmatization, phrase normalization, syntax parsing, NER tagging, fact extraction. Quality on every task is similar or better then current SOTAs for Russian language on news articles, see evaluation section. Natasha is not a research project, underlying technologies are built for production. We pay attention to model size, RAM usage and performance. Models run on CPU, use Numpy for inference.
+
+
 - https://github.com/allenai/allennlp
 
     AllenNLP is an open source library for building deep learning models for natural language processing, developed by the Allen Institute for Artificial Intelligence. It is built on top of PyTorch and is designed to support researchers, engineers, students, etc., who wish to build high quality deep NLP models with ease. It provides high-level abstractions and APIs for common components and models in modern NLP. It also provides an extensible framework that makes it easy to run and manage NLP experiments.
@@ -189,6 +198,10 @@ Table of Contents
 - https://github.com/NVlabs/imaginaire
 
     Imaginaire is a pytorch library that contains optimized implementation of several image and video synthesis methods developed at NVIDIA.
+
+- https://github.com/rwightman/pytorch-image-models
+
+    PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more
 
 ### Time Series
 
@@ -230,6 +243,13 @@ Table of Contents
 
     It's built on Keras and aims to have a gentle learning curve while still giving you the flexibility to build complex models.
 
+- https://github.com/microsoft/recommenders
+
+    Best Practices on Recommendation Systems 
+
+    This repository contains examples and best practices for building recommendation systems, provided as Jupyter notebooks.
+
+
 ### Distributed
 
 - https://github.com/ray-project/ray
@@ -257,6 +277,10 @@ Table of Contents
     - Natural Language Processing: part-of-speech taggers, n-gram search, sentiment analysis, WordNet
     - Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
     - Network Analysis: graph centrality and visualization.
+
+- https://github.com/deanmalmgren/textract
+
+    Extract text from any document. no muss. no fuss.
 
 - https://github.com/SauceCat/pydqc
 
@@ -292,9 +316,25 @@ Table of Contents
     
 ### Enterprise ML and DL
 
+- https://github.com/apache/airflow
+
+    Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows.
+
+    When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
+
+    Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
+
 - https://github.com/ikatsov/tensor-house
 
     TensorHouse is a collection of reference machine learning and optimization models for enterprise operations: marketing, pricing, supply chain, and more. The goal of the project is to provide baseline implementations for industrial, research, and educational purposes.
+
+- https://github.com/dagster-io/dagster
+
+    A data orchestrator for machine learning, analytics, and ETL. 
+
+    Dagster lets you define pipelines in terms of the data flow between reusable, logical components, then test locally and run anywhere. With a unified view of pipelines and the assets they produce, Dagster can schedule and orchestrate Pandas, Spark, SQL, or anything else that Python can invoke.
+
+    Dagster is designed for data platform engineers, data engineers, and full-stack data scientists. Building a data platform with Dagster makes your stakeholders more independent and your systems more robust. Developing data pipelines with Dagster makes testing easier and deploying faster.
 
 ### Speed up
 
