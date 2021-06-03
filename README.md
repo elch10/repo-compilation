@@ -164,10 +164,6 @@ Table of Contents
 
     Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.
 
-- https://github.com/natasha/natasha
-
-    Natasha solves basic NLP tasks for Russian language: tokenization, sentence segmentation, word embedding, morphology tagging, lemmatization, phrase normalization, syntax parsing, NER tagging, fact extraction. Quality on every task is similar or better then current SOTAs for Russian language on news articles, see evaluation section. Natasha is not a research project, underlying technologies are built for production. We pay attention to model size, RAM usage and performance. Models run on CPU, use Numpy for inference.
-
 
 - https://github.com/allenai/allennlp
 
@@ -193,6 +189,11 @@ Table of Contents
 
     Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
 
+- https://github.com/nsu-ai/russian_g2p
+
+    Accentor and transcriptor for Russian language 
+
+
 ### CV
 
 - https://github.com/NVlabs/imaginaire
@@ -202,6 +203,15 @@ Table of Contents
 - https://github.com/rwightman/pytorch-image-models
 
     PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more
+
+- https://github.com/lukemelas/EfficientNet-PyTorch
+
+    A PyTorch implementation of EfficientNet and EfficientNetV2 (coming soon!)
+
+- https://github.com/dorarad/gansformer
+
+    This is an implementation of the GANsformer model, a novel and efficient type of transformer, explored for the task of image generation. The network employs a bipartite structure that enables long-range interactions across the image, while maintaining computation of linearly efficiency, that can readily scale to high-resolution synthesis. The model iteratively propagates information from a set of latent variables to the evolving visual features and vice versa, to support the refinement of each in light of the other and encourage the emergence of compositional representations of objects and scenes. In contrast to the classic transformer architecture, it utilizes multiplicative integration that allows flexible region-based modulation, and can thus be seen as a generalization of the successful StyleGAN network.
+
 
 ### Time Series
 
@@ -313,6 +323,14 @@ Table of Contents
 - https://github.com/avian2/unidecode
 
     It often happens that you have text data in Unicode, but you need to represent it in ASCII. For example when integrating with legacy code that doesn't support Unicode, or for ease of entry of non-Roman names on a US keyboard, or when constructing ASCII machine identifiers from human-readable Unicode strings that should still be somewhat intelligible. A popular example of this is when making an URL slug from an article title.
+
+- https://github.com/LuminosoInsight/python-ftfy
+
+    Fixes mojibake and other glitches in Unicode text, after the fact.
+
+- https://github.com/natasha/natasha
+
+    Natasha solves basic NLP tasks for Russian language: tokenization, sentence segmentation, word embedding, morphology tagging, lemmatization, phrase normalization, syntax parsing, NER tagging, fact extraction. Quality on every task is similar or better then current SOTAs for Russian language on news articles, see evaluation section. Natasha is not a research project, underlying technologies are built for production. We pay attention to model size, RAM usage and performance. Models run on CPU, use Numpy for inference.
     
 ### Enterprise ML and DL
 
