@@ -164,6 +164,9 @@ Table of Contents
 
     Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.
 
+- https://github.com/natasha/natasha
+
+    Natasha solves basic NLP tasks for Russian language: tokenization, sentence segmentation, word embedding, morphology tagging, lemmatization, phrase normalization, syntax parsing, NER tagging, fact extraction. Quality on every task is similar or better then current SOTAs for Russian language on news articles, see evaluation section. Natasha is not a research project, underlying technologies are built for production. We pay attention to model size, RAM usage and performance. Models run on CPU, use Numpy for inference.
 
 - https://github.com/allenai/allennlp
 
@@ -288,10 +291,6 @@ Table of Contents
     - Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
     - Network Analysis: graph centrality and visualization.
 
-- https://github.com/deanmalmgren/textract
-
-    Extract text from any document. no muss. no fuss.
-
 - https://github.com/SauceCat/pydqc
 
     Python automatic data quality check toolkit. Aims to relieve the pain of writing tedious codes for general data understanding by:
@@ -316,6 +315,29 @@ Table of Contents
 
     This project is made for automatic web scraping to make scraping easy. It gets a url or the html content of a web page and a list of sample data which we want to scrape from that page. This data can be text, url or any html tag value of that page. It learns the scraping rules and returns the similar elements. Then you can use this learned object with new urls to get similar content or the exact same element of those new pages.
 
+- https://github.com/pydata/pandas-datareader
+
+    Extract data from a wide range of Internet sources into a pandas DataFrame.
+
+    Functions from pandas_datareader.data and pandas_datareader.wb extract data from various Internet sources into a pandas DataFrame. Currently the following sources are supported: 
+
+        Tiingo
+        IEX
+        Robinhood
+        Alpha Vantage
+        Enigma
+        Quandl
+        St.Louis FED (FRED)
+        Kenneth French’s data library
+        World Bank
+        OECD
+        Eurostat
+        Thrift Savings Plan
+        Nasdaq Trader symbol definitions
+        Stooq
+        MOEX
+
+
 - https://github.com/google/textfsm
 
     Python module which implements a template based state machine for parsing semi-formatted text. Originally developed to allow programmatic access to information returned from the command line interface (CLI) of networking devices.
@@ -324,14 +346,15 @@ Table of Contents
 
     It often happens that you have text data in Unicode, but you need to represent it in ASCII. For example when integrating with legacy code that doesn't support Unicode, or for ease of entry of non-Roman names on a US keyboard, or when constructing ASCII machine identifiers from human-readable Unicode strings that should still be somewhat intelligible. A popular example of this is when making an URL slug from an article title.
 
+- https://github.com/deanmalmgren/textract
+
+    Extract text from any document. no muss. no fuss.
+
 - https://github.com/LuminosoInsight/python-ftfy
 
     Fixes mojibake and other glitches in Unicode text, after the fact.
 
-- https://github.com/natasha/natasha
 
-    Natasha solves basic NLP tasks for Russian language: tokenization, sentence segmentation, word embedding, morphology tagging, lemmatization, phrase normalization, syntax parsing, NER tagging, fact extraction. Quality on every task is similar or better then current SOTAs for Russian language on news articles, see evaluation section. Natasha is not a research project, underlying technologies are built for production. We pay attention to model size, RAM usage and performance. Models run on CPU, use Numpy for inference.
-    
 ### Enterprise ML and DL
 
 - https://github.com/apache/airflow
