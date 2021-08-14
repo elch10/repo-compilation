@@ -89,6 +89,10 @@ Table of Contents
 
 ###  Model debugging
 
+- https://github.com/neptune-ai/neptune-client
+
+    Neptune is a lightweight experiment logging/tracking tool that helps you with your machine learning experiments. Neptune is suitable for indvidual, commercial and research projects.
+
 - https://github.com/wandb/client
 
     Use W&B to organize and analyze machine learning experiments. It's framework-agnostic and lighter than TensorBoard. Each time you run a script instrumented with wandb, we save your hyperparameters and output metrics. Visualize models over the course of training, and compare versions of your models easily. We also automatically track the state of your code, system metrics, and configuration parameters.
@@ -101,14 +105,15 @@ Table of Contents
 
     As a visual analytics tool, Manifold allows ML practitioners to look beyond overall summary metrics to detect which subset of data a model is inaccurately predicting. Manifold also explains the potential cause of poor model performance by surfacing the feature distribution difference between better and worse-performing subsets of data.
 
-- https://github.com/IDSIA/sacred
+- https://github.com/PerceptiLabs/PerceptiLabs
 
-    Sacred is a tool to help you configure, organize, log and reproduce experiments. It is designed to do all the tedious overhead work that you need to do around your actual experiment in order to:
+    PerceptiLabs is a dataflow driven, visual API for TensorFlow that enables data scientists to work more efficiently with machine learning models and to gain more insight into their models. It wraps low-level TensorFlow code to create visual components, which allows users to visualize the model architecture as the model is being built.
 
-    - keep track of all the parameters of your experiment
-    - easily run your experiment for different settings
-    - save configurations for individual runs in a database
-    - reproduce your results
+    This visual approach lowers the barrier of entry for beginners while providing researchers and advanced users with code-level access to their models.
+
+- https://github.com/evidentlyai/evidently
+
+    Evidently helps evaluate machine learning models during validation and monitor them in production. The tool generates interactive visual reports and JSON profiles from pandas `DataFrame` or `csv` files. You can use visual reports for ad hoc analysis, debugging and team sharing, and JSON profiles to integrate Evidently in prediction pipelines or with other visualization tools.
 
 - https://github.com/TeamHG-Memex/eli5
 
@@ -119,6 +124,17 @@ Table of Contents
     SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
 
 ### DL useful utilities
+
+- https://github.com/microsoft/DeepSpeed
+
+    10x Larger Models, 10x Faster Training, Minimal Code Change
+
+    DeepSpeed delivers extreme-scale model training for everyone, from data scientists training on massive supercomputers to those training on low-end clusters or even on a single GPU:
+
+    - Extreme scale: Using current generation of GPU clusters with hundreds of devices, 3D parallelism of DeepSpeed can efficiently train deep learning models with trillions of parameters.
+    - Extremely memory efficient: With just a single GPU, ZeRO-Offload of DeepSpeed can train models with over 10B parameters, 10x bigger than the state of arts, democratizing multi-billion-parameter model training such that many deep learning scientists can explore bigger and better models.
+    - Extremely long sequence length: Sparse attention of DeepSpeed powers an order-of-magnitude longer input sequence and obtains up to 6x faster execution comparing with dense transformers.
+    - Extremely communication efficient: 3D parallelism improves communication efficiency allows users to train multi-billion-parameter models 2–7x faster on clusters with limited network bandwidth. 1-bit Adam/1-bit LAMB reduce communication volume by up to 5x while achieving similar convergence efficiency to Adam/LAMB, allowing for scaling to different types of GPU clusters and networks.
 
 - https://github.com/apache/incubator-mxnet
 
@@ -134,17 +150,7 @@ Table of Contents
 
     PyTorch framework for Deep Learning research and development. It focuses on reproducibility, rapid experimentation, and codebase reuse so you can create something new rather than write another regular train loop.
 
-    Break the cycle - use the Catalyst!
-
-    Alchemy - experiments logging & visualization
-    Catalyst - accelerated deep learning R&D
-    Reaction - convenient deep learning models serving
-
-- https://github.com/PerceptiLabs/PerceptiLabs
-
-    PerceptiLabs is a dataflow driven, visual API for TensorFlow that enables data scientists to work more efficiently with machine learning models and to gain more insight into their models. It wraps low-level TensorFlow code to create visual components, which allows users to visualize the model architecture as the model is being built.
-
-    This visual approach lowers the barrier of entry for beginners while providing researchers and advanced users with code-level access to their models.
+    Supports fast `stochastic weight averaging, model tracing, model quantization, model pruning`.
 
 - https://github.com/tensorflow/addons
 
@@ -153,10 +159,6 @@ Table of Contents
 - https://github.com/tflearn/tflearn
 
     TFlearn is a modular and transparent deep learning library built on top of Tensorflow. It was designed to provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while remaining fully transparent and compatible with it.
-
-- https://github.com/pytorch/ignite
-
-    Ignite is a high-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
 
 ### NLP
 
@@ -221,6 +223,10 @@ Table of Contents
 - https://github.com/RJT1990/pyflux
 
     PyFlux is an open source time series library for Python. The library has a good array of modern time series models, as well as a flexible array of inference options (frequentist and Bayesian) that can be applied to these models. By combining breadth of models with breadth of inference, PyFlux allows for a probabilistic approach to time series modelling.
+
+- https://github.com/facebookresearch/Kats
+
+    Kats is a toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis. Time series analysis is an essential component of Data Science and Engineering work at industry, from understanding the key statistics and characteristics, detecting regressions and anomalies, to forecasting future trends. Kats aims to provide the one-stop shop for time series analysis, including detection, forecasting, feature extraction/embedding, multivariate analysis, etc.
 
 - https://github.com/tslearn-team/tslearn
 
@@ -357,17 +363,19 @@ Table of Contents
 
 ### Enterprise ML and DL
 
-- https://github.com/apache/airflow
-
-    Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows.
-
-    When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
-
-    Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
-
 - https://github.com/ikatsov/tensor-house
 
     TensorHouse is a collection of reference machine learning and optimization models for enterprise operations: marketing, pricing, supply chain, and more. The goal of the project is to provide baseline implementations for industrial, research, and educational purposes.
+
+- https://github.com/quantumblacklabs/kedro
+
+    Kedro is an open-source Python framework for creating reproducible, maintainable and modular data science code. It borrows concepts from software engineering and applies them to machine-learning code; applied concepts include modularity, separation of concerns and versioning.
+
+- https://github.com/apache/airflow
+
+    Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
+
+    Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
 
 - https://github.com/dagster-io/dagster
 
