@@ -6,22 +6,26 @@ LF AI & Data Foundation Interactive Landscape: https://landscape.lfai.foundation
 Table of Contents
 =================
 
-* [CMD line interface](#cmd-line-interface)
-* [Visualization](#visualization)
-* [AutoML](#automl)
-* [Model debugging](#model-debugging)
-* [DL useful utilities](#dl-useful-utilities)
-* [NLP](#nlp)
-* [CV](#cv)
-* [Time Series](#time-series)
-* [Recommendations](#recommendations)
-* [Distributed](#distributed)
-* [Data mining and data processing](#data-mining-and-data-processing)
-* [Enterprise ML and DL](#enterprise-ml-and-dl)
-* [Speed up](#speed-up)
-* [Testing](#testing)
-* [Python app creator helpers:](#python-app-creator-helpers)
-* [Automate](#automate)
+* [repo-compilation](#repo-compilation)
+* [Table of Contents](#table-of-contents)
+    * [CMD line interface](#cmd-line-interface)
+    * [Visualization](#visualization)
+    * [AutoML](#automl)
+    * [Model debugging](#model-debugging)
+    * [DL fast research and low level controll](#dl-fast-research-and-low-level-controll)
+    * [DL frameworks for fast prototyping and pretrained models](#dl-frameworks-for-fast-prototyping-and-pretrained-models)
+    * [NLP](#nlp)
+    * [Audio processing](#audio-processing)
+    * [CV](#cv)
+    * [Time Series](#time-series)
+    * [Recommendations](#recommendations)
+    * [Distributed](#distributed)
+    * [Data mining and data processing](#data-mining-and-data-processing)
+    * [Enterprise ML and DL](#enterprise-ml-and-dl)
+    * [Speed up](#speed-up)
+    * [Testing](#testing)
+    * [Python app creator helpers:](#python-app-creator-helpers)
+    * [Automate](#automate)
 
 ### CMD line interface
 
@@ -123,7 +127,7 @@ Table of Contents
 
     SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
 
-### DL useful utilities
+### DL fast research and low level controll
 
 - https://github.com/microsoft/DeepSpeed
 
@@ -159,6 +163,30 @@ Table of Contents
 - https://github.com/tflearn/tflearn
 
     TFlearn is a modular and transparent deep learning library built on top of Tensorflow. It was designed to provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while remaining fully transparent and compatible with it.
+
+### DL frameworks for fast prototyping and pretrained models
+
+- https://github.com/huggingface/transformers
+
+    Transformers provides thousands of pretrained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation and more in over 100 languages. Its aim is to make cutting-edge NLP easier to use for everyone.
+
+    Transformers provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub. At the same time, each python module defining an architecture is fully standalone and can be modified to enable quick research experiments.
+
+- https://github.com/pytorch/fairseq
+
+    Fairseq(-py) is a sequence modeling toolkit that allows researchers and developers to train custom models for translation, summarization, language modeling and other text generation tasks.
+
+    We provide reference implementations of various sequence modeling papers:
+
+- https://github.com/NVIDIA/NeMo
+
+    NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), natural language processing (NLP), and text-to-speech synthesis (TTS). The primary objective of NeMo is to help researchers from industry and academia to reuse prior work (code and pretrained models and make it easier to create new conversational AI models.
+
+- https://github.com/speechbrain/speechbrain
+
+    SpeechBrain is an open-source and all-in-one speech toolkit based on PyTorch.
+
+    The goal is to create a single, flexible, and user-friendly toolkit that can be used to easily develop state-of-the-art speech technologies, including systems for speech recognition, speaker recognition, speech enhancement, multi-microphone signal processing and many others.
 
 ### NLP
 
@@ -197,6 +225,9 @@ Table of Contents
 - https://github.com/nsu-ai/russian_g2p
 
     Accentor and transcriptor for Russian language 
+
+
+### Audio processing
 
 
 ### CV
@@ -371,6 +402,10 @@ Table of Contents
 
     Kedro is an open-source Python framework for creating reproducible, maintainable and modular data science code. It borrows concepts from software engineering and applies them to machine-learning code; applied concepts include modularity, separation of concerns and versioning.
 
+- https://github.com/Netflix/metaflow
+
+    Metaflow is a human-friendly Python/R library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
+
 - https://github.com/apache/airflow
 
     Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
@@ -386,6 +421,12 @@ Table of Contents
     Dagster is designed for data platform engineers, data engineers, and full-stack data scientists. Building a data platform with Dagster makes your stakeholders more independent and your systems more robust. Developing data pipelines with Dagster makes testing easier and deploying faster.
 
 ### Speed up
+
+- https://github.com/NVIDIA/DALI
+
+    The NVIDIA Data Loading Library (DALI) is a library for data loading and pre-processing to accelerate deep learning applications. It provides a collection of highly optimized building blocks for loading and processing image, video and audio data. It can be used as a portable drop-in replacement for built in data loaders and data iterators in popular deep learning frameworks.
+
+    DALI addresses the problem of the CPU bottleneck by offloading data preprocessing to the GPU. Additionally, DALI relies on its own execution engine, built to maximize the throughput of the input pipeline. Features such as prefetching, parallel execution, and batch processing are handled transparently for the user.
 
 - https://github.com/modin-project/modin
 
