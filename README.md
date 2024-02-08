@@ -457,3 +457,25 @@ Table of Contents
 - https://github.com/huginn/huginn
 
     Huginn is a system for building agents that perform automated tasks for you online. They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server. You always know who has your data. You do.
+
+
+### G2P, word tokenizers
+- https://github.com/AdolfVonKleist/Phonetisaurus
+
+   This repository contains scripts suitable for training, evaluating and using grapheme-to-phoneme models for speech recognition using the OpenFst framework. The current build requires OpenFst version 1.6.0 or later, and the examples below use version 1.7.2.
+
+- https://github.com/samzshi0529/HanziNLP?tab=readme-ov-file#1-quick-start
+
+   Welcome to HanziNLP 🌟 - an ready-to-use toolkit for Natural Language Processing (NLP) on Chinese text, while also accommodating English. It is designed to be user-friendly and simplified tool even for freshmen in python like simple way for Chinese word tokenization and visualization via built-in Chinese fonts(Simplified Chinese).
+
+- https://github.com/uhermjakob/utoken
+
+   utoken is a multilingual tokenizer that divides text into words, punctuation and special tokens such as numbers, URLs, XML tags, email-addresses and hashtags. The tokenizer comes with a companion detokenizer. Initial public release of beta version 0.1.0 on Oct. 1, 2021.
+
+- https://github.com/rhasspy/gruut
+
+   A tokenizer, text cleaner, and IPA phonemizer for several human languages that supports SSML.
+
+- https://github.com/dmort27/epitran
+
+  A library and tool for transliterating orthographic text as IPA (International Phonetic Alphabet).
